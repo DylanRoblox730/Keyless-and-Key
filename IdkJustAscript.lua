@@ -1,0 +1,11 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Keyless And Key script Searcher", "Ocean")
+local Tab = Window:NewTab("Keyless Script")
+local Tab = Window:NewTab("Key script")
+local Section = Tab:NewSection("Keyless")
+local Section = Tab:NewSection("With key")
+Section:NewButton("Infinite yield", "Keyless", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
+    print("Clicked")
+end)
